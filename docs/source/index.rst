@@ -1,22 +1,37 @@
-Welcome to Lumache's documentation!
-===================================
+scPOLY Demo Documentation
+=========================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+Welcome to the scPOLY demo documentation! This package provides tools for ...
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+Quick Start
+-----------
 
-.. note::
+.. code-block:: python
 
-   This project is under active development.
+    import your_package
+    from your_package import train, infer, model
 
-Contents
+API Reference
+-------------
+
+.. toctree::
+   :maxdepth: 2
+   :caption: API Documentation
+   
+   modules
+
+Examples
 --------
 
 .. toctree::
+   :maxdepth: 1
+   
+   examples/training
+   examples/inference
 
-   usage
-   api
+Indices and Tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`
